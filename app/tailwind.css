@@ -62,3 +62,14 @@ input[type="range"] {
     border-radius: 50%; /* Make the slider button circular */
     transition: background 0.2s, transform 0.2s; /* Add this line */
   }
+
+/* Center content on small screens */
+@media (max-width: 640px) {
+  .center-on-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
