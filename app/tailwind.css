@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-system: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-system {
+  font-family: var(--font-system);
+}
+
+.font-inter-extrabold {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+.font-inter-medium {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.font-inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.font-inter-medium-wide {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1em; /* Adjust tracking as needed */
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 50%; /* Make the slider button circular */
+    transition: background 0.2s, transform 0.2s; /* Add this line */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 50%; /* Make the slider button circular */
+    transition: background 0.2s, transform 0.2s; /* Add this line */
+  }
