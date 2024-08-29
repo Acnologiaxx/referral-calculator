@@ -39,5 +39,7 @@ Make sure to deploy the output of `npm run build`
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
 
+## Recording
+https://www.loom.com/share/7ff23fdceeec43d8b540397ca8311e14
 ![image](https://github.com/user-attachments/assets/887df261-9221-40a4-b2ff-854fa26ea056)
 
